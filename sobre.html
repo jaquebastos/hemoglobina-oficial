@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Hemoglobina: doação de sangue. Assim como um doador frequente, doar faz bem pra muita gente!">
+        <title> A equipe do Hemoglobina </title>
+        <link rel="stylesheet" href="estilo-sobre.css">
+    </head>
+
+    <body>
+            <header>
+                <nav>
+                  <div class="logo">
+                    <a href="index.html"><img src="./assets/LogoHemoglobina.svg" alt="Logo"></a>
+                  </div>
+                  
+                  <ul>
+                    <li><a href="index.html">O Que É?</a></li>
+                    <li><a href="index.html">Como Funciona?</a></li>
+                    <li><a href="index.html">Porque Usar?</a></li>
+                    <li><a href="index.html">FAQ</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                  </ul>
+                </nav>
+
+                <!-- Ícone do menu hambúrguer -->
+                <div class="hamburger" id="hamburger-icon">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+              </header>
+        </header>
+
+        <main>
+            <section class="sobre-nos">
+                <h1> SOBRE NÓS </h1>
+                <img src="./assets/equipe.png" alt="Foto de todos os integrantes abraçados" class="foto-equipe">
+                <p class="text-team"> A empresa da Hemoglobina LTDA teve início em fevereiro de 2024, com o intuito de desenvolver um projeto de TCC no curso de Desenvolvimento de Sistemas na Etec de Taboão da Serra.
+                    Durante o desenvolvimento, os integrantes puderam se familiarizar mais e desenvolver um bom relacionamento como equipe, preservando sempre a comunicação e a eficiência das atividades executadas. Cada integrante teve sua função definida de acordo com a habilidade de cada um, visando facilitar e agilizar o desempenho da equipe. </p>
+            </section>
+
+            <section class="carrossel">
+                <button id="prev" class="seta esquerda">
+                    <img src="./assets/angle-left.png" alt="Anterior"/>
+                </button>
+                <div class="imagens">
+                    <img src="./assets/Missão.png" alt="missão" class="active">
+                    <img src="./assets/Visão.png" alt="visão"">
+                    <img src="./assets/Valores.png" alt="valores">
+                </div>
+                <button id="next" class="seta direita">
+                    <img src="./assets/angle-right.png" alt="Próximo"/>
+                </button>
+            </section>
+                    
+                <div class="bolinhas">
+                    <span class="bolinha active" data-index="0"></span>
+                    <span class="bolinha" data-index="1"></span>
+                    <span class="bolinha" data-index="2"></span>
+                </div>
+            </section>
+
+            <section class="nossa-equipe">
+                <div class="integrantes">
+                    <h2> Nossa Equipe </h2>
+                    <p class="text-image">Saiba mais sobre os integrantes da nossa equipe e suas respectivas funções. 
+                        <br> Caso tenha interesse, acesse o nosso Linkedin para mais informações. </p>
+                    
+                    <div class="int-fotos">
+                        <div class="cindy">
+                            <img class="img-cindy" src="./assets/cindy.png" alt="Foto da Cindy">
+                            <p> <strong>Cindy Kamile</strong> </p>
+                            <p> DBA </p>
+                            <a href="https://www.linkedin.com/in/cindy-kamile-santos-de-oliveira-6b1b541bb/" target="_blank"><img class="linkedin" src="./assets/linkedin.png" alt="Logo do linkedin"></a>
+                        </div>
+    
+                        <br>
+    
+                        <div class="gaby">
+                            <img class="img-gaby" src="./assets/gaby.png" alt="Foto da Gabrielly">
+                            <p> <strong>Gabrielly Nataly</strong> </p>
+                            <p> Dev Fullstack </p>
+                            <a href="https://www.linkedin.com/in/gabrielly-nataly-229310221/" target="_blank"><img class="linkedin" src="./assets/linkedin.png" alt="Logo do linkedin"></a>
+                        </div>
+    
+                        <br>
+    
+                        <div class="gi">
+                            <img class="img-gi" src="./assets/gi.png" alt="Foto da Giovanna">
+                            <p> <strong>Giovanna Santos</strong> </p>
+                            <p> Documentação </p>
+                            <a href="https://www.linkedin.com/in/giovanna-santos-51514b276/" target="_blank"><img class="linkedin" src="./assets/linkedin.png" alt="Logo do linkedin"></a>
+                        </div>
+    
+                        <br>
+    
+                        <div class="jaque">
+                            <img class="img-jaque" src="./assets/jaque.png" alt="Foto da Jaqueline">
+                            <p> <strong>Jaqueline Bastos</strong> </p>
+                            <p> Designer </p>
+                            <a href="https://www.linkedin.com/in/jaqueline-bastos-a17348265/" target="_blank"><img class="linkedin" src="./assets/linkedin.png" alt="Logo do linkedin"></a>
+                        </div>
+    
+                        <br>
+    
+                        <div class="nic">
+                            <img class="img-nico" src="./assets/nico.png" alt="Foto do Nicolas">
+                            <p> <strong>Nicolas dos Santos</strong> </p>
+                            <p> Dev Fullstack </p>
+                            <a href="https://www.linkedin.com/in/nicolas-dos-santos-5352802a4/" target="_blank"><img class="linkedin" src="./assets/linkedin.png" alt="Logo do linkedin"></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-logo">
+                <a href="sobre.html" id="voltar-topo"><img src="./assets/LogoHemoglobina.svg" alt="Logo do Footer"></a>
+            </div>
+            <ul class="footer-menu">
+                <li><a href="index.html">O Que É?</a></li>
+                <li><a href="index.html">Como Funciona?</a></li>
+                <li><a href="index.html">Porque Usar?</a></li>
+                <li><a href="index.html">FAQ</a></li>
+                <li><a id="voltar-topo" href="sobre.html">Sobre</a></li>
+            </ul>
+            <div class="footer-icons">
+                <a href="mailto:hemoglobinaltda@gmail.com"><img src="./assets/email.png" alt="Ícone de email"></a>
+                <a href="https://instagram.com/_hemoglobinaapp" target="_blank"><img src="./assets/instagram.png" alt="Logo do Instagram"></a>
+            </div>
+            <hr>
+            <p>&copy; 2024 Todos os direitos reservados pela Hemoglobina LTDA.</p>
+        </footer>
+
+        <!-- Javascript para deixar o scroll mais suave -->
+        <script>
+            document.getElementById('voltar-topo').addEventListener('click', function(event) {
+                event.preventDefault();
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+        </script>
+
+        <script src="carrossel.js"></script>
+
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+            </div>
+          </div>
+      
+          <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+          
+          <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+          </script>
+    </body>
+
+</html>

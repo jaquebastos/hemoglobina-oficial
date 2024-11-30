@@ -1,0 +1,316 @@
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Importação das fontes */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/* Cores em variáveis */
+:root{
+    --BrancoFundo: #EEF0EB;
+    --Vermelho: #AE2A2B;
+    --Azul: #326671; 
+}
+
+ /* Menu */
+ header {
+    background-color: #b22b2b; /* Cor vermelha semelhante ao da imagem */
+    padding: 15px 0;
+    height: 700px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  nav .logo img {
+    height: 60px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: #f7f0f0; /* Cor branca com leve opacidade */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+    font-family: 'DM Sans', sans-serif;
+  }
+  
+  nav ul li a:hover {
+    color: #ffd700; /* Cor ao passar o mouse */
+  }
+
+h1 {
+    color: var(--BrancoFundo);
+    font-weight: 700;
+    font-size: 66px;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: -500px;
+}
+
+.sobre-nos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-equipe {
+    width: 70%;
+    height: 70%;
+}
+
+.text-team {
+  margin-top: -370px;
+  width: 900px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 20px;
+}
+
+.nossa-equipe {
+  margin-top: 10%;
+}
+
+h2 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 46px;
+  margin-bottom: 2%;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.text-image {
+  font-family: 'DM Sans', sans-serif;
+  width: 700px;
+  font-size: 20px;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+/* Carrossel */
+  
+.carrossel {
+  /* margin-top: 1200px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.imagens {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.imagens img {
+  width: 100%;
+  display: none;
+}
+
+.imagens img.active {
+  display: block;
+}
+
+.seta {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+}
+
+.seta img {
+  width: 30px;
+  height: auto;
+}
+
+.direita {
+  margin-right: 10px;
+}
+
+.esquerda {
+  margin-left: 10px;
+}
+
+.bolinhas {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.bolinha {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: rgba(122, 0, 0, 0.56);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.bolinha.active {
+  background-color: #7A0000;
+}
+
+.int-fotos {
+  margin-top: 3%;
+  display: flex;
+
+  margin-bottom: 8%;
+
+  gap: 10px;
+}
+
+.cindy p, .gaby p, .gi p, .jaque p, .nic p {
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  margin-top: 4%;
+}
+
+.linkedin {
+  margin-left: 43%;
+  margin-top: 5%;
+}
+
+/* Footer */
+footer {
+    background-color: #b22b2b; /* Cor vermelha do footer */
+    color: #fff;
+    text-align: center;
+    padding: 8px 0;
+    position: absolute;
+    width: 100%;
+    margin-top: auto;
+  }
+  
+  .footer-logo img {
+    width: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-menu li {
+    margin: 0 15px;
+  }
+  
+  .footer-menu li a {
+    color: #f7f0f0;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-family: 'DM Sans', sans-serif;
+  }
+  
+  .footer-menu li a:hover {
+    color: #ffd700; /* Cor ao passar o mouse */
+  }
+  
+  .footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaçamento entre os ícones */
+    margin-bottom: 20px;
+  }
+
+  .footer-icons a img {
+    width: 44px;
+    height: 44px;
+  }
+  
+  /* Linha horizontal no footer */
+  hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #fff;
+    margin: 20px auto;
+  }
+  
+  footer p {
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  /* Responsividade */
+  @media screen and (max-width: 1280px) {
+    .text-team {
+      margin-top: -23%;
+    }
+
+    .int-fotos {
+      margin-top: 3%;
+      margin-bottom: 8%;
+      display: flex;
+      flex-wrap: wrap; /* Permite que os itens quebrem linha */
+      justify-content: center; /* Centraliza os itens */
+      gap: 20px; /* Espaçamento entre os itens */
+    }
+    
+    .int-fotos > div {
+      flex: 1 1 200px; /* Faz com que cada item ocupe pelo menos 200px */
+      max-width: 200px; /* Define uma largura máxima */
+      text-align: center; /* Centraliza o conteúdo de cada item */
+    }
+    
+    .int-fotos .img-cindy, .img-gaby, .img-gi, .img-nico, .img-jaque {
+      width: 100%; /* As imagens se ajustam ao contêiner */
+      max-width: 150px; /* Limita o tamanho máximo das imagens */
+      border-radius: 50%; /* Torna as fotos redondas */
+    }
+    
+    .int-fotos p {
+      font-family: 'DM Sans', sans-serif;
+      margin: 8px 0;
+    }
+    
+    .linkedin {
+      width: 24px; /* Ajusta tamanho do ícone */
+      height: 24px;
+      margin-right: 40%;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    header {
+      height: 450px;
+    } 
+
+    .sobre-nos {
+      margin-top: 25%;
+    }
+
+    .text-team {
+      width: 630px;
+      text-align: justify;
+    }
+  }
