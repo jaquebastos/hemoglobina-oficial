@@ -1,220 +1,227 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title> Hemoglobina: doação de sangue </title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link href="estilo-index.css" rel="stylesheet" type="text/css" />
-  </head>
 
-  <!-- Menu -->
-  <header>
-    <nav>
-      <div class="logo">
-        <img src="./assets/LogoHemoglobina.svg" alt="Logo">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title> Hemoglobina: doação de sangue </title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="estilo-index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<!-- Menu -->
+<header>
+  <nav class="navbar-normal">
+    <div class="logo">
+      <img src="./assets/LogoHemoglobina.svg" alt="Logo">
+    </div>
+    <ul>
+      <li><a href="#oq">O Que É?</a></li>
+      <li><a href="#func">Como Funciona?</a></li>
+      <li><a href="#divulg">Porque Usar?</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+    </ul>
+  </nav>
+
+  <!-- Botão do menu sanduíche -->
+  <div class="menu-mobile">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </div>
+
+  <!-- Menu mobile -->
+  <nav class="navbar-mobile">
+    <ul>
+      <li><a href="#oq">O que É?</a></li>
+      <li><a href="#func">Como Funciona</a></li>
+      <li><a href="#divulg">Porque Usar?</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+    </ul>
+  </nav>
+</header>
+
+<body>
+  <div class="textos-inicial">
+    <h1 class="home-h1">HEMOGLOBINA</h1>
+    <p class="home-p">Um aplicativo que conecta hemocentros e doadores de sangue numa rede de campanhas e informações.
+    </p>
+  </div>
+
+  <!-- Apresentação do aplicativo -->
+  <!-- Slider main container -->
+  <div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <img src="./assets/Tela de inicialização.png" alt="">
+        <div class="title">
+          <span>Tela de inicialização</span>
+        </div>
       </div>
-      <ul>
-        <li><a href="#oq">O Que É?</a></li>
-        <li><a href="#func">Como Funciona?</a></li>
-        <li><a href="#divulg">Porque Usar?</a></li>
-        <li><a href="#faq">FAQ</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-      </ul>
-    </nav>
-
-    <!-- Botão do menu sanduíche -->
-    <div class="menu-mobile">
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
-    </div>
-
-    <!-- Menu mobile -->
-    <nav class="navbar-mobile">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="artigo.html">Artigo</a></li>
-            <li><a href="manual.html">Manual</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-        </ul>
-    </nav>
-  </header>
-
-  <body>
-    <div class="textos-inicial">
-      <h1>HEMOGLOBINA</h1>
-      <p class="home-p">Um aplicativo que conecta hemocentros e doadores de sangue numa rede de campanhas e informações.</p>
-    </div>
-
-    <!-- Apresentação do aplicativo -->
-    <!-- Slider main container -->
-    <div class="swiper-container">
-      <!-- Additional required wrapper -->
-      <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide">
-          <img src="./assets/Tela de inicialização.png" alt="">
-          <div class="title">
-            <span>Tela de inicialização</span>
-          </div>
+      <div class="swiper-slide">
+        <img src="./assets/Tela de cadastro-login Hemoglobina.png" alt="">
+        <div class="title">
+          <span>Tela de cadastro</span>
         </div>
-        <div class="swiper-slide">
-          <img src="./assets/Tela de cadastro-login Hemoglobina.png" alt="">
-          <div class="title">
-            <span>Tela de cadastro</span>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <img src="./assets/Tela de login Hemoglobina.png" alt="">
-          <div class="title">
-            <span>Tela de login</span>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <img src="./assets/HomeDoador.png" alt="">
-          <div class="title">
-            <span>Home do doador</span>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <img src="./assets/HomeHemocentro.png" alt="">
-          <div class="title">
-            <span>Home do hemocentro</span>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <img src="./assets/HemocentrosPróximos1.png" alt="">
-          <div class="title">
-            <span>Hemocentros próximos</span>
-          </div>
-        </div>
-        
       </div>
-      <div class="swiper-pagination"></div>
-      <!-- Pagination -->
-      
-    </div>
+      <div class="swiper-slide">
+        <img src="./assets/Tela de login Hemoglobina.png" alt="">
+        <div class="title">
+          <span>Tela de login</span>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/HomeDoador.png" alt="">
+        <div class="title">
+          <span>Home do doador</span>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/HomeHemocentro.png" alt="">
+        <div class="title">
+          <span>Home do hemocentro</span>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/HemocentrosPróximos1.png" alt="">
+        <div class="title">
+          <span>Hemocentros próximos</span>
+        </div>
+      </div>
 
-    <div class="container-btn"> 
-      <button class="button-baixar"> 
-        <a href="#"target="_blank">
-        <img src="./assets/google-play.png" alt="Icon Play Store"/> 
+    </div>
+    <div class="swiper-pagination"></div>
+    <!-- Pagination -->
+
+  </div>
+
+  <div class="container-btn">
+    <button class="button-baixar">
+      <a href="#" target="_blank">
+        <img src="./assets/google-play.png" alt="Icon Play Store" />
         <div class="texto-disponivel">Disponível na <br>
-        <span class="destaque-btn"> Play Store </span>
+          <span class="destaque-btn"> Play Store </span>
         </div>
-        </a>
-      </button> 
+      </a>
+    </button>
 
-      <button class="button-baixar"> 
-        <a href="#" target="_blank">
-        <img src="./assets/logotipo-da-apple.png" alt="Icon Apple Store"/> 
-        <div class="texto-disponivel">Disponível na <br> 
-        <span class="destaque-btn"> App Store</span>
+    <button class="button-baixar">
+      <a href="#" target="_blank">
+        <img src="./assets/logotipo-da-apple.png" alt="Icon Apple Store" />
+        <div class="texto-disponivel">Disponível na <br>
+          <span class="destaque-btn"> App Store</span>
         </div>
-        </a>
-      </button> 
+      </a>
+    </button>
+  </div>
+
+  <div class="apresentacao2" style="width: 1070px; margin: 0 auto;" id="oq">
+    <!-- O que é o hemoglobina?-->
+    <div>
+      <h2 class="home-title"> O que é o Hemoglobina? </h2>
+      <p class="home-text"> O Hemoglobina é um aplicativo móvel desenvolvido como um projeto de TCC dentro do curso de
+        Desenvolvimento de Sistemas da ETEC de Taboão da Serra, pelos alunos: Cindy Kamile, Gabrielly Nataly, Giovanna
+        Santos, Jaqueline Bastos e Nicolas dos Santos. Seu principal objetivo é facilitar a comunicação entre pessoas
+        que desejam doar sangue e pontos de coleta, além de disseminar mais informações sobre esse tema e tornar a
+        doação de sangue uma ação cotidiana. </p>
     </div>
 
-    <div class="apresentacao2" style="width: 1070px; margin: 0 auto;" id="oq">
-      <!-- O que é o hemoglobina?-->
-      <div>
-          <h2 class="home-title"> O que é o Hemoglobina? </h2>
-          <p class="home-text"> O Hemoglobina é um aplicativo móvel desenvolvido como um projeto de TCC dentro do curso de Desenvolvimento de Sistemas da ETEC de Taboão da Serra, pelos alunos: Cindy Kamile, Gabrielly Nataly, Giovanna Santos, Jaqueline Bastos e Nicolas dos Santos. Seu principal objetivo é facilitar a comunicação entre pessoas que desejam doar sangue e pontos de coleta, além de disseminar mais informações sobre esse tema e tornar a doação de sangue uma ação cotidiana. </p>
+    <div class="video-container">
+      <iframe src="https://drive.google.com/file/d/12g1FwPcoim6Q3Van31JSs3WAT36o2fSf/preview" allow="autoplay" controls>
+      </iframe>
+    </div>
+  </div>
+
+  <!-- Como o aplicativo funciona -->
+  <h2 class="home-title2" id="func"> Como o aplicativo funciona </h2>
+  <p class="home-text2"> O aplicativo Hemoglobina disponibiliza ferramentas que melhoram a eficiência e a gestão das
+    operações diárias, além de auxiliar na captação de novos doadores. Entre as principais ferramentas temos: </p>
+
+  <div class="hemocentro">
+    <div class="button-container">
+      <button class="button doador" id="btnDoador">DOADOR</button>
+      <button class="button hemocentro" id="btnHemocentro">HEMOCENTRO</button>
+    </div>
+
+    <!-- Código da parte doador -->
+    <div class="doador" id="doador">
+      <img class="tela-celular" src="./assets/app-doador.png"
+        alt="telas de hemocentros próximos e página inicial da campanha, no login de doador">
+
+      <div class="detalhes-doador1">
+        <div class="hemo-prox">
+          <img src="./assets/hemocentros.png" alt="ícone de hemocentro">
+          <h3>Localizar Hemocentros Próximos</h3>
+          <p>Permite filtrar os hemocentros próximos com base no
+            CEP do doador e visualizar a avaliação geral do local.</p>
+        </div>
+
+        <div class="chatbot">
+          <img src="./assets/chatbot.png" alt="ícone de chatbot">
+          <h3>HemoAssistent IA</h3>
+          <p>O HemoAssistent, é uma inteligência artificial, integrada no Hemoglobina, para criar um espaço que auxilie
+            e sane as dúvidas do doador.</p>
+        </div>
       </div>
 
-      <div class="video-container">
-        <iframe 
-          src="https://drive.google.com/file/d/12g1FwPcoim6Q3Van31JSs3WAT36o2fSf/preview" 
-          allow="autoplay" 
-          controls>
-        </iframe>
+      <div class="detalhes-doador2">
+        <div class="campanha">
+          <img src="./assets/campanha.png" alt="ícone de campanha">
+          <h3> Criar campanhas </h3>
+          <p> Divulgar casos e pedidos de doações em formato de post. </p>
+        </div>
+
+        <div class="carteirinha">
+          <img src="./assets/carteirinha.png" alt="ícone de carteirinha">
+          <h3>Carteirinha do Doador Online</h3>
+          <p>O doador poderá solicitar a carteirinha digital após
+            registrar o marco de três doações cadastradas.</p>
+        </div>
       </div>
     </div>
 
-    <!-- Como o aplicativo funciona -->
-    <h2 class="home-title2" id="func"> Como o aplicativo funciona </h2>
-        <p class="home-text2"> O aplicativo Hemoglobina disponibiliza ferramentas que melhoram a eficiência e a gestão das operações diárias, além de auxiliar na captação de novos doadores. Entre as principais ferramentas temos: </p>
+    <!-- Código da parte hemocentro -->
+    <div class="hemocentro2" id="hemocentro" style="display: none;">
+      <img class="tela-celular" src="./assets/app-hemocentro.png"
+        alt="telas de adicionar doação e visualização do banco de sangue, na parte de login-hemocentro">
 
-     <div class="hemocentro">
-        <div class="button-container">
-          <button class="button doador" id="btnDoador">DOADOR</button>
-          <button class="button hemocentro" id="btnHemocentro">HEMOCENTRO</button>
+      <div class="detalhes-hemo1">
+        <div class="estoque">
+          <img class="est-img" src="./assets/estoque.png" alt="ícone de estoque">
+          <h3> Estoque </h3>
+          <p> Os hemocentros poderão verificar e atualizar o estoque do banco de sangue. </p>
         </div>
 
-         <!-- Código da parte doador -->
-        <div class="doador" id="doador">
-          <img class="tela-celular" src="./assets/app-doador.png" alt="telas de hemocentros próximos e página inicial da campanha, no login de doador">
-          
-            <div class="detalhes-doador1">
-              <div class="hemo-prox">
-                <img src="./assets/hemocentros.png" alt="ícone de hemocentro">
-                <h3>Localizar Hemocentros Próximos</h3>
-                <p>Permite filtrar os hemocentros próximos com base no 
-                  CEP do doador e visualizar a avaliação geral do local.</p>
-              </div>
+        <div class="grafico">
+          <img src="./assets/grafico.png" alt="ícone de gráfico">
+          <h3> Representação gráfica </h3>
+          <p> Concede a visualização de forma visual e gráfica do nível do banco de sangue. </p>
+        </div>
+      </div>
 
-              <div class="chatbot">
-                <img src="./assets/chatbot.png" alt="ícone de chatbot">
-                <h3>HemoAssistent IA</h3>
-                <p>O HemoAssistent, é uma inteligência artificial, integrada no Hemoglobina, para criar um espaço que auxilie e sane as dúvidas do doador.</p>
-              </div>
-            </div>
-
-          <div class="detalhes-doador2">
-            <div class="campanha">
-              <img src="./assets/campanha.png" alt="ícone de campanha">
-              <h3> Criar campanhas </h3>
-              <p> Divulgar casos e pedidos de doações em formato de post. </p>
-            </div>
-            
-            <div class="carteirinha">
-              <img src="./assets/carteirinha.png" alt="ícone de carteirinha">
-              <h3>Carteirinha do Doador Online</h3>
-              <p>O doador poderá solicitar a carteirinha digital após 
-                registrar o marco de três doações cadastradas.</p>
-            </div>
-          </div>
+      <div class="detalhes-hemo2">
+        <div class="campanha">
+          <img src="./assets/campanha.png" alt="ícone de campanha">
+          <h3> Criar campanhas </h3>
+          <p> Divulgar casos e pedidos de doações em formato de post. </p>
         </div>
 
-        <!-- Código da parte hemocentro -->
-        <div class="hemocentro2" id="hemocentro" style="display: none;">
-            <img class="tela-celular" src="./assets/app-hemocentro.png" alt="telas de adicionar doação e visualização do banco de sangue, na parte de login-hemocentro">
-          
-            <div class="detalhes-hemo1">
-              <div class="estoque">
-                <img class="est-img" src="./assets/estoque.png" alt="ícone de estoque">
-                <h3> Estoque </h3>
-                <p> Os hemocentros poderão verificar e atualizar o estoque do banco de sangue. </p>
-              </div>
-
-              <div class="grafico">
-                <img src="./assets/grafico.png" alt="ícone de gráfico">
-                <h3> Representação gráfica </h3>
-                <p> Concede a visualização de forma visual  e gráfica do nível do banco de sangue. </p>
-              </div>
-            </div>
-
-          <div class="detalhes-hemo2">
-            <div class="campanha">
-              <img src="./assets/campanha.png" alt="ícone de campanha">
-              <h3> Criar campanhas </h3>
-              <p> Divulgar casos e pedidos de doações em formato de post. </p>
-            </div>
-            
-            <div class="doacao">
-              <img src="./assets/doacoes.png" alt="ícone de doação">
-              <h3> Adicionar doações </h3>
-              <p> Permite a atualização manual do estoque, após receberem uma doação.  </p>
-            </div>
-          </div>
+        <div class="doacao">
+          <img src="./assets/doacoes.png" alt="ícone de doação">
+          <h3> Adicionar doações </h3>
+          <p> Permite a atualização manual do estoque, após receberem uma doação. </p>
         </div>
+      </div>
+    </div>
 
-     <!-- Por que usar o hemoglobina? -->
-     <h2 class="home-title" id="divulg"> Porque usar o hemoglobina? </h2>
+    <!-- Por que usar o hemoglobina? -->
+    <h2 class="home-title" id="divulg"> Porque usar o hemoglobina? </h2>
 
     <!-- Parte do doador -->
-     <div class="divulgacao-doador" id="doador">
+    <div class="divulgacao-doador" id="doador">
       <div class="divulgacao1">
         <div class="div-h1">
           <img src="./assets/1.png" alt="número um">
@@ -228,8 +235,8 @@
           <img src="./assets/2.png" alt="número dois">
           <div class="textos">
             <h3> Segurança </h3>
-            <p> Assegura-se total proteção e cuidado com os dados fornecidos pelos usuários. </p> 
-          </div> 
+            <p> Assegura-se total proteção e cuidado com os dados fornecidos pelos usuários. </p>
+          </div>
         </div>
 
         <div class="div-h3">
@@ -258,7 +265,8 @@
           <img src="./assets/5.png" alt="número cinco">
           <div class="textos">
             <h3> Carteirinha digital </h3>
-            <p> Solicite sua carteirinha vitual após três doações realizadas, baixe e usufrua dos benefícios de ser um doador. </p>
+            <p> Solicite sua carteirinha vitual após três doações realizadas, baixe e usufrua dos benefícios de ser um
+              doador. </p>
           </div>
         </div>
 
@@ -270,172 +278,183 @@
           </div>
         </div>
       </div>
-     </div>
+    </div>
 
     <!--Parte do hemocentro-->
-      <div class="divulgacao-hemocentro" id="hemocentro" style="display:none">
-        <div class="divulgacao1">
-          <div class="div-h1">
-            <img src="./assets/1.png" alt="número um">
-            <div class="textos">
-              <h3> Praticidade </h3>
-              <p> Aplicação de fácil uso e manuseio. </p>
-            </div>
-          </div>
-  
-          <div class="div-h2">
-            <img src="./assets/2.png" alt="número dois">
-            <div class="textos">
-              <h3> Segurança </h3>
-              <p> Assegura-se total proteção e cuidado com os dados fornecidos pelos usuários. </p> 
-            </div> 
-          </div>
-  
-          <div class="div-h3">
-            <img src="./assets/3.png" alt="número três">
-            <div class="textos">
-              <h3> Design intuitivo </h3>
-              <p> Transmite ao usuário a sensação de conforto e segurança durante a utilização da aplicação. </p>
-            </div>
+    <div class="divulgacao-hemocentro" id="hemocentro" style="display:none">
+      <div class="divulgacao1">
+        <div class="div-h1">
+          <img src="./assets/1.png" alt="número um">
+          <div class="textos">
+            <h3> Praticidade </h3>
+            <p> Aplicação de fácil uso e manuseio. </p>
           </div>
         </div>
 
-        <div class="div-celular">
-          <img src="./assets/celular2.png" alt="uma mão segurança um celular mostrando a tela inicial do doador">
+        <div class="div-h2">
+          <img src="./assets/2.png" alt="número dois">
+          <div class="textos">
+            <h3> Segurança </h3>
+            <p> Assegura-se total proteção e cuidado com os dados fornecidos pelos usuários. </p>
+          </div>
         </div>
 
-        <div class="divulgacao2">
-          <div class="div-h4">
-            <img src="./assets/4.png" alt="número quatro">
-            <div class="textos">
-              <h3> Suporte </h3>
-              <p> Contate-nos por via e-mail ou instragram caso tenha dúvidas em relação ao nosso aplicativo. </p>
-            </div>
-          </div>
-  
-          <div class="div-h5">
-            <img src="./assets/5.png" alt="número cinco">
-            <div class="textos">
-              <h3>Gerenciamento</h3>
-              <p>Acompanhe e gerencie o estoque do banco de sangue. </p>
-            </div>
-          </div>
-  
-          <div class="div-h6">
-            <img src="./assets/6.png" alt="número seis">
-            <div class="textos">
-              <h3> Visibilidade </h3>
-              <p>  </p>
-            </div>
+        <div class="div-h3">
+          <img src="./assets/3.png" alt="número três">
+          <div class="textos">
+            <h3> Design intuitivo </h3>
+            <p> Transmite ao usuário a sensação de conforto e segurança durante a utilização da aplicação. </p>
           </div>
         </div>
       </div>
 
-      <!-- Perguntas frequentes-->
-      <section class="faq" id="faq">
-        <h1 class="titulo"> Perguntas Frequentes </h1>
-
-        <!--Pergunta 1-->
-        <div class="card">
-          <div class="question-container">
-            <button class="toggle-button">+</button>
-            <div class="question"> Quem pode doar? </div>
-          </div>
-
-          <div class="answer" style="display: none;">
-           Qualquer pessoa entre os 16 e 69 anos de anos e que pese mais de 50 kg. Caso o doador seja menor de idade, é necessário a autorização de um responsável legal.  
-          </div>
-        </div>
-
-        <!--Pergunta 2-->
-        <div class="card"> 
-          <div class="question-container">
-              <button class="toggle-button">+</button>
-              <div class="question"> Meu corpo irá sentir falta desse sangue? </div>
-          </div>
-          
-          <div class="answer" style="display: none;"> Não. Nós possuímos cerca de 5 litros de sangue circulando pelo nosso corpo. Nosso organismo consegue recompor o sangue após 72 horas.
-          </div>
-        </div>
-
-        <!--Pergunta 3-->
-        <div class="card">
-          <div class="question-container">
-              <button class="toggle-button">+</button>
-              <div class="question"> Qual o limite de doações de sangue? </div>
-          </div>
-
-          <div class="answer" style="display: none;">
-             Para mulheres o limite de doações é até 03 durante o ano. Já para os homens o limite é de 04 doações durante o ano. 
-          </div>
-        </div>
-
-        <!--Pergunta 4-->
-        <div class="card">
-          <div class="question-container">
-              <button class="toggle-button">+</button>
-              <div class="question"> Qual é o intervalo entre uma doação e outra? </div>
-          </div>
-
-          <div class="answer" style="display: none;">
-              Para mulheres o intervalo é de: 3 (três) meses e para homens é de: 2 (dois) meses.
-          </div>
-        </div>
-
-        <!--Pergunta 5-->
-        <div class="card">
-          <div class="question-container">
-              <button class="toggle-button">+</button>
-              <div class="question"> Quais os cuidados para se ter antes da doação? </div>
-          </div>
-
-          <div class="answer" style="display: none;">
-              Estar bem alimentado(a), descansado(a), não ingerir nenhuma bebida alcoólica nas últimas 24 horas. Não é                 necessário realizar nenhum antes da doação, apenas se certifique se está assistomático e em boas condições de saúde.
-          </div>
-        </div>
-
-        <!--Pergunta 6-->
-        <div class="card">
-          <div class="question-container">
-              <button class="toggle-button">+</button>
-              <div class="question"> Quanto tempo dura a coleta? </div>
-          </div>
-
-          <div class="answer" style="display: none;">
-            Dura, aproximadamente, 8 a 12 minutos. Mas, antes o doador precisa passar na triagem, logo, o processo dura por volta de 40 minutos ao todo,pórem,depende muito da circulação de pessoas, no hemocentro, o que pode interferir no momento da coleta. 
-          </div>
-        </div>
-
-        <!--Pergunta 7-->
-        <div class="card">
-          <div class="question-container">
-              <button class="toggle-button">+</button>
-              <div class="question"> Quanto tempo dura a coleta? </div>
-          </div>
-
-          <div class="answer" style="display: none;">
-            Dura, aproximadamente, 8 a 12 minutos. Mas, antes o doador precisa passar na triagem, logo, o processo dura por volta de 40 minutos ao todo,pórem,depende muito da circulação de pessoas, no hemocentro, o que pode interferir no momento da coleta. 
-          </div>
-        </div>
-
-        <!--Pergunta 8-->
-        <div class="card">
-          <div class="question-container">
-              <button class="toggle-button">+</button>
-              <div class="question"> E depois de doar sangue? O que fazer? </div>
-          </div>
-
-          <div class="answer" style="display: none;">
-             Recomenda-se que o doador evite fazer esforços físicos, beba bastante água, evitar fumar por pelo menso 2 horas e também não ingerir álcool pelo resto do dia, além de não poder praticar quaisquer esportes radicais ou dirigir veículos de grande porte. 
-          </div>
-        </div>
-
-        <script src="faq.js"></script>
-      </section>
-
-      <!-- Divisor-->
-      <div class="separadorCima">
+      <div class="div-celular">
+        <img src="./assets/celular2.png" alt="uma mão segurança um celular mostrando a tela inicial do doador">
       </div>
+
+      <div class="divulgacao2">
+        <div class="div-h4">
+          <img src="./assets/4.png" alt="número quatro">
+          <div class="textos">
+            <h3> Suporte </h3>
+            <p> Contate-nos por via e-mail ou instragram caso tenha dúvidas em relação ao nosso aplicativo. </p>
+          </div>
+        </div>
+
+        <div class="div-h5">
+          <img src="./assets/5.png" alt="número cinco">
+          <div class="textos">
+            <h3>Gerenciamento</h3>
+            <p>Acompanhe e gerencie o estoque do banco de sangue. </p>
+          </div>
+        </div>
+
+        <div class="div-h6">
+          <img src="./assets/6.png" alt="número seis">
+          <div class="textos">
+            <h3> Visibilidade </h3>
+            <p> </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Perguntas frequentes-->
+    <section class="faq" id="faq">
+      <h1 class="titulo"> Perguntas Frequentes </h1>
+
+      <!--Pergunta 1-->
+      <div class="card">
+        <div class="question-container">
+          <button class="toggle-button">+</button>
+          <div class="question"> Quem pode doar? </div>
+        </div>
+
+        <div class="answer" style="display: none;">
+          Qualquer pessoa entre os 16 e 69 anos de anos e que pese mais de 50 kg. Caso o doador seja menor de idade, é
+          necessário a autorização de um responsável legal.
+        </div>
+      </div>
+
+      <!--Pergunta 2-->
+      <div class="card">
+        <div class="question-container">
+          <button class="toggle-button">+</button>
+          <div class="question"> Meu corpo irá sentir falta desse sangue? </div>
+        </div>
+
+        <div class="answer" style="display: none;"> Não. Nós possuímos cerca de 5 litros de sangue circulando pelo nosso
+          corpo. Nosso organismo consegue recompor o sangue após 72 horas.
+        </div>
+      </div>
+
+      <!--Pergunta 3-->
+      <div class="card">
+        <div class="question-container">
+          <button class="toggle-button">+</button>
+          <div class="question"> Qual o limite de doações de sangue? </div>
+        </div>
+
+        <div class="answer" style="display: none;">
+          Para mulheres o limite de doações é até 03 durante o ano. Já para os homens o limite é de 04 doações durante o
+          ano.
+        </div>
+      </div>
+
+      <!--Pergunta 4-->
+      <div class="card">
+        <div class="question-container">
+          <button class="toggle-button">+</button>
+          <div class="question"> Qual é o intervalo entre uma doação e outra? </div>
+        </div>
+
+        <div class="answer" style="display: none;">
+          Para mulheres o intervalo é de: 3 (três) meses e para homens é de: 2 (dois) meses.
+        </div>
+      </div>
+
+      <!--Pergunta 5-->
+      <div class="card">
+        <div class="question-container">
+          <button class="toggle-button">+</button>
+          <div class="question"> Quais os cuidados para se ter antes da doação? </div>
+        </div>
+
+        <div class="answer" style="display: none;">
+          Estar bem alimentado(a), descansado(a), não ingerir nenhuma bebida alcoólica nas últimas 24 horas. Não é
+          necessário realizar nenhum antes da doação, apenas se certifique se está assistomático e em boas condições de
+          saúde.
+        </div>
+      </div>
+
+      <!--Pergunta 6-->
+      <div class="card">
+        <div class="question-container">
+          <button class="toggle-button">+</button>
+          <div class="question"> Quanto tempo dura a coleta? </div>
+        </div>
+
+        <div class="answer" style="display: none;">
+          Dura, aproximadamente, 8 a 12 minutos. Mas, antes o doador precisa passar na triagem, logo, o processo dura
+          por volta de 40 minutos ao todo,pórem,depende muito da circulação de pessoas, no hemocentro, o que pode
+          interferir no momento da coleta.
+        </div>
+      </div>
+
+      <!--Pergunta 7-->
+      <div class="card">
+        <div class="question-container">
+          <button class="toggle-button">+</button>
+          <div class="question"> Quanto tempo dura a coleta? </div>
+        </div>
+
+        <div class="answer" style="display: none;">
+          Dura, aproximadamente, 8 a 12 minutos. Mas, antes o doador precisa passar na triagem, logo, o processo dura
+          por volta de 40 minutos ao todo,pórem,depende muito da circulação de pessoas, no hemocentro, o que pode
+          interferir no momento da coleta.
+        </div>
+      </div>
+
+      <!--Pergunta 8-->
+      <div class="card">
+        <div class="question-container">
+          <button class="toggle-button">+</button>
+          <div class="question"> E depois de doar sangue? O que fazer? </div>
+        </div>
+
+        <div class="answer" style="display: none;">
+          Recomenda-se que o doador evite fazer esforços físicos, beba bastante água, evitar fumar por pelo menso 2
+          horas e também não ingerir álcool pelo resto do dia, além de não poder praticar quaisquer esportes radicais ou
+          dirigir veículos de grande porte.
+        </div>
+      </div>
+
+      <script src="faq.js"></script>
+    </section>
+
+    <!-- Divisor-->
+    <div class="separadorCima">
+    </div>
 
     <!-- Footer -->
     <footer>
@@ -452,7 +471,8 @@
       <!--Separar os dois icons e colocar os links neles-->
       <div class="footer-icons">
         <a href="mailto:hemoglobinaltda@gmail.com"><img src="./assets/email.png" alt="Ícone de email"></a>
-        <a href="https://instagram.com/_hemoglobinaapp" target="_blank"><img src="./assets/instagram.png" alt="Logo do Instagram"></a>
+        <a href="https://instagram.com/_hemoglobinaapp" target="_blank"><img src="./assets/instagram.png"
+            alt="Logo do Instagram"></a>
       </div>
       <hr>
       <p>&copy; 2024 Todos os direitos reservados pela Hemoglobina LTDA.</p>
@@ -482,12 +502,12 @@
 
     <!-- Javascript para deixar o scroll mais suave -->
     <script>
-      document.getElementById('voltar-topo').addEventListener('click', function(event) {
-          event.preventDefault();
-          window.scrollTo({
-              top: 0,
-              behavior: 'smooth'
-          });
+      document.getElementById('voltar-topo').addEventListener('click', function (event) {
+        event.preventDefault();
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
       });
     </script>
 
@@ -501,26 +521,35 @@
     </div>
 
     <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-    
+
     <script>
       new window.VLibras.Widget('https://vlibras.gov.br/app');
     </script>
 
     <script>
       // Garantir que o script só execute quando o DOM estiver carregado
-      document.addEventListener("DOMContentLoaded", function() {
-      const menuIcon = document.getElementById("menu-icon");
-      const menu = document.getElementById("menu");
+      document.addEventListener("DOMContentLoaded", function () {
+        const menuIcon = document.getElementById("menu-icon");
+        const menu = document.getElementById("menu");
 
-      // Adicionar um ouvinte de evento para o clique no ícone do menu
-      menuIcon.addEventListener("click", function() {
-        menu.classList.toggle("active");  // Alterna a classe active
+        // Adicionar um ouvinte de evento para o clique no ícone do menu
+        menuIcon.addEventListener("click", function () {
+          menu.classList.toggle("active");  // Alterna a classe active
+        });
+
+        // Seleciona os elementos
+        const menuMobile = document.querySelector('.menu-mobile');
+        const navbarMobile = document.querySelector('.navbar-mobile');
+
+        // Adiciona o evento de clique para abrir/fechar o menu
+        menuMobile.addEventListener('click', () => {
+          navbarMobile.classList.toggle('active');
+        });
       });
-    });
 
     </script>
 
     <script src="mobile-navbar.js"></script>
-  </body>
+</body>
 
 </html>
